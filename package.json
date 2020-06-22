@@ -1,6 +1,6 @@
 {
   "name": "@compactjs/remap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Map a value from one range to another",
   "source": "src/index.js",
   "main": "dist/index.js",
