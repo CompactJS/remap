@@ -1,4 +1,3 @@
-declare module '@compactjs/remap';
 /**
  * Maps a value from one range to another
  */
@@ -8,4 +7,6 @@ export function remap(
   max: number,
   targetMin: number,
   targetMax: number
-): number;
+): number {
+  return targetMin + ((value - min) / (max - min)) * (targetMax - targetMin);
+}
